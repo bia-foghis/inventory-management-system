@@ -1,0 +1,56 @@
+.data-container {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.employee-details {
+  text-align: center;
+  font-size: 20px;
+}
+
+.employee-details h3 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.employee-details p {
+  color: #35559a;
+}
+
+.error-message {
+  background-color: #91a0b29b;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 11px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #91a0b29b;
+}
+
+th {
+  background-color: #91a0b29b;
+}
